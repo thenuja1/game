@@ -1,11 +1,11 @@
 * {
     margin: 0;
     font-size: 22px;
-    max-width: 100vw;
-    max-height: 100vh;
 }
 
 body {
+    max-width: 100vw;
+    max-height: 100vh;
     align-items: center;
     margin: 50px;
 }
@@ -16,7 +16,7 @@ form {
 
 input {
     min-height: 25px;
-    min-width: 0px;
+    max-width: 175px;
 }
 
 li {
